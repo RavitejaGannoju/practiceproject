@@ -20,14 +20,6 @@ public class Todo {
 	private boolean isCompleted;
 	
 	
-	
-	public Todo(int userId, int id, String title, boolean isCompleted) {
-		super();
-		this.userId = userId;
-		this.id = id;
-		this.title = title;
-		this.isCompleted = isCompleted;
-	}
 	public int getUserId() {
 		return userId;
 	}
